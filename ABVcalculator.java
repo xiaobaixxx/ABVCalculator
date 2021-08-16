@@ -68,7 +68,7 @@ public class ABVcalculator {
     public static void creatFileAndAddOGFGABVvalue(){
         //创建file
         try {
-            x = new Formatter("D:\\Project\\RecordDataForRefermentation\\ "+ fileName+ date+ ".txt");
+            x = new Formatter("D:\\"+ fileName+ date+ ".txt");
 
             System.out.println("you created a txt file;");
         } catch (Exception e) {
